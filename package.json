@@ -1,0 +1,24 @@
+{
+  "name": "count-wikidata-properites",
+  "version": "1.0.0",
+  "description": "A node script to count wikidata properties for a group of QIds",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SemanticLab/count-wikidata-properites.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SemanticLab/count-wikidata-properites/issues"
+  },
+  "homepage": "https://github.com/SemanticLab/count-wikidata-properites#readme",
+  "dependencies": {
+    "highland": "^2.11.1",
+    "request": "^2.83.0",
+    "wikidata-sdk": "^5.5.0"
+  }
+}
